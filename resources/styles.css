@@ -1,0 +1,50 @@
+.background {
+  viewport-fill: #ffffff;
+}
+
+#hoursl {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 22%;
+  y: 50%-0;/* 縦 */
+  fill: #9370DB;
+}
+
+#minsl {
+  font-size: 80;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 22%;
+  y: 50%+60;/* 縦 */
+  fill: #483D8B;
+}
+#meml {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 100%-20;
+  y: 100%-20;/* 縦 */
+  fill: #e6e6fa;
+}
+#batteryl {
+  font-size: 20;
+  font-family: System-Bold;
+  text-length: 32;
+  text-anchor: middle;
+  x: 0%+20;
+  y: 0%+20;/* 縦 */
+  fill: white;
+}
+#dayl {
+  font-size: 30;
+  font-family: System-Bold;
+/*   text-length: 32; */
+  text-anchor: middle;
+  x: 90%;
+  y: 50%+10;/* 縦 */
+  fill: #0084ff;
+}

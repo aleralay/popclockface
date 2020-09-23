@@ -1,0 +1,54 @@
+<svg class="background">
+<!--  fuchsia  -->
+  <!-- <circle cx="80%" cy="10%" r="5" fill="#FF00FF" />
+  <circle cx="88%" cy="20%" r="5" fill="#FF00FF" />
+  <circle cx="94%" cy="38%" r="5" fill="#FF00FF" />
+   -->
+<!--  crimson  -->
+  <!-- <circle cx="30%" cy="65%" r="5" fill="#DC143C" />
+  <circle cx="10%" cy="70%" r="5" fill="#DC143C" />
+  <circle cx="20%" cy="85%" r="5" fill="#DC143C" />
+  <circle cx="10%" cy="90%" r="5" fill="#DC143C" />
+   -->
+
+  
+  <circle cx="90%" cy="50%" r="20" fill="#ADFF2F" />
+  <text id="dayl" ></text>
+  
+  <!-- Battery -->
+  <section x="0" y="0" width="100%" height="100%">
+    <arc x="0%" y="0%" width="100%" height="100%" fill="#DDA0DD"
+    arc-width="5" start-angle="-70" sweep-angle="50" />
+    <arc id="btry" x="0%" y="0%" width="100%" height="100%" fill="#6A5ACD"
+    arc-width="5" start-angle="-70" sweep-angle="50" />
+  </section>
+
+<!-- Memmory -->
+  <section x="0" y="0" width="100%" height="100%">
+    <arc x="0%" y="0%" width="100%" height="100%" fill="#DDA0DD"
+    arc-width="5" start-angle="110" sweep-angle="50" />
+    <arc id="memg" x="0%" y="0%" width="100%" height="100%" fill="#7B68EE"
+    arc-width="5" start-angle="110" sweep-angle="50" />
+  </section>
+  <text id="hoursl" />
+  <text id="minsl" />
+  <!-- <text id="batteryl" />
+  <text id="meml" /> -->
+  
+  
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-4" y="-110" width="8" height="110" fill="#FFA500" />
+  </g>
+  <circle cx="50%" cy="50%" r="10" fill="#6495ED" />
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-6" y="-75" width="12" height="75" fill="#FF00FF" />
+  </g>
+  <circle cx="50%" cy="50%" r="8" fill="#FF00FF" />
+  <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-2" y="-120" width="4" height="120" fill="#6495ED" />
+  </g>
+  <circle cx="50%" cy="50%" r="6" fill="#6495ED" />
+  <circle cx="50%" cy="50%" r="1" fill="#000000" />
+
+  
+</svg>
